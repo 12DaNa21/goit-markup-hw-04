@@ -16,6 +16,7 @@ ul {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+  list-style-type: none;
 }
 
 p {
@@ -227,6 +228,11 @@ h3 {
 .our-team-text {
   text-align: center;
 }
+.svg-menu {
+  align-items: center;
+  gap: 24px;
+  margin-top: 0 auto;
+}
 /* ============= /OUR TEAM SECTION/ ============= */
 /* ============= OUR PORTFOLIO SECTION ========== */
 .our-porfolio-top {
@@ -269,8 +275,12 @@ h3 {
 .down-span-logo {
   color: #f4f4fd;
 }
+.footer-text {
+  display: flex;
+}
 .paragraph-text-footer {
   color: #f4f4fd;
   max-width: 264px;
 }
+
 /* ============= /FOOTER SECTION /================== */
