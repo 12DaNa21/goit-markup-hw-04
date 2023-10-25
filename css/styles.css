@@ -221,7 +221,7 @@ section {
   border: none;
   border-radius: 4px;
   margin: 0 auto;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -300,7 +300,7 @@ section {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link:hover,
 .social-list-link:focus {
@@ -329,7 +329,6 @@ section {
 .our-portfolio-item:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-portfolio-item:hover .portfolio-overlay-item {
   transform: translatey(0);
@@ -337,6 +336,7 @@ section {
 .portfolio-overlay-item {
   position: relative;
   overflow: hidden;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-overlay-text {
   position: absolute;
@@ -370,6 +370,7 @@ section {
 }
 .down-section-menu .container {
   display: flex;
+  align-items: baseline;
 }
 .container-block-menu {
   display: block;
@@ -425,8 +426,5 @@ section {
   background-color: #31d0aa;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-list-down .social-list-icon {
-  width: 24px;
-  height: 24px;
-}
+
 /* ============= /FOOTER SECTION /================== */
